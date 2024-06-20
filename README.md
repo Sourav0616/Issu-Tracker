@@ -1,26 +1,7 @@
 
 # Issue Tracker
 
-Build the website to create a project and also create the issue of the project
 
-
-## Installation
-
-Install my-project with npm
-
-```bash
-  git clone https://github.com/amit-vis/Issue_Tracker.git
-  npm install
-  cd Issue_Tracker
-```
-    
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm start
-```
 
 
 ## Folder Structure
