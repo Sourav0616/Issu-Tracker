@@ -38,9 +38,10 @@ app.use(customMware.setFlash);
 app.use('/', require('./routes'));
 
 // here setup the port
-app.listen(port, function(err){
+const PORT = process.env.PORT || 4000
+app.listen(PORT, function(err){
     if(err){
         console.log('error in connecting to port', err);
     }
-    console.log('app is listen successfully on port: ', port)
+    console.log('app is listen successfully on port: ', PORT)
 })
